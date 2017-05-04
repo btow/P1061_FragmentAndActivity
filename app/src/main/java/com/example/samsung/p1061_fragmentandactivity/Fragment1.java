@@ -30,6 +30,9 @@ public class Fragment1 extends Fragment {
             public void onClick(View v) {
                 message = getString(R.string.button_click_in) + " " + getString(R.string.fragment_1);
                 Messager.sendToAllRecipients(v.getContext(), message);
+                message = "Access from " + getString(R.string.fragment_1) + " to the Activity";
+                ((Button) getActivity().findViewById(R.id.btnFind)).setText(message);
+                Messager.sendToAllRecipients(v.getContext(), message);
             }
         });
 

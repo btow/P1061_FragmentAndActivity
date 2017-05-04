@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ((TextView) fragment1.getView().findViewById(R.id.tvFragment)).setText(message);
 
         message = "Access to " + getString(R.string.fragment_2) + " from Activity";
+        Messager.sendToAllRecipients(getBaseContext(), message);
         ((TextView) fragment2.getView().findViewById(R.id.tvFragment)).setText(message);
     }
 }
