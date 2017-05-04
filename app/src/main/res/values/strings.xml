@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P1061_FragmentAndActivity</string>
+    <string name="fragment_1_text">The Fragment 1</string>
+    <string name="fragment_2_text">The Fragment 2</string>
+    <string name="log_btn">Log</string>
+    <string name="button_click_in">Button click in</string>
+    <string name="fragment_1">Fragment1</string>
+    <string name="fragment_2">Fragment2</string>
+    <string name="find">Find</string>
+</resources>
